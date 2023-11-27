@@ -1,11 +1,11 @@
-//MODUL 1 A
+//MODUL 1 A -INTRODUCTION TO REACT
 import Menu from './Menu';
 import SearchBar from './SearchBar';
 import Books from './books/Books';
 import TutorsList from './TutorsList';
 import Button from './Button';
 
-//MODUL 1 B
+//MODUL 2 A- EVENTS AND STATES IN REACT
 import Panel from 'components/Panel';
 import PanelTwo from './PanelTwo';
 
@@ -58,7 +58,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>Modulul 1 A</h1>
+      <h1>Introduction to React (1 A)</h1>
       <h2>Exercitiul 1</h2>
       <SearchBar text={'My new product'} isVisible={isVisible} price={23}>
         <p>Text 1</p>
@@ -83,15 +83,15 @@ export default function App() {
         handleClick={() => console.log('Cand dau click se va afisa asta')}
       />
 
-      <h1>Modulul 1 B</h1>
+      <h1>Stylization in React (1 B)</h1>
+      <h3>link spre repo-ul cu stilizarea</h3>
 
-      <h1>Modulul 2 A</h1>
-      <h1>Modulul 3 A</h1>
+      <h1>Events and States in React (2 A)</h1>
       <h2>Exercitiul 1</h2>
       <Panel index={1} />
       <PanelTwo index={2} />
 
-      <h1>Modulul 2 B</h1>
+      <h1>Forms (2 B)</h1>
     </div>
   );
 }
