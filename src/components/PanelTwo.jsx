@@ -23,11 +23,11 @@ export default class PanelTwo extends Component {
 
     return (
       <div>
-        <h2>{this.title}</h2>
+        <h3>{this.title}</h3>
         {/* <h3>Index {this.props.index}</h3> */}
-        <h3>Index {index}</h3>
+        <h4>Index {index}</h4>
         <p>Panel Class Component</p>
-        <h1>EXERCITIUL 2</h1>
+        <h2>Exercitiul 2</h2>
         <h4>Numaratoare: {this.state.counter}</h4>
         <button
           onClick={() => {

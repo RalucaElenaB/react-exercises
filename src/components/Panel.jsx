@@ -6,8 +6,8 @@ export default function Panel({ index }) {
 
   return (
     <div>
-      <h2>{title}</h2>
-      <h3>Index {index} </h3>
+      <h3>{title}</h3>
+      <h4>Index {index} </h4>
       <p>Panel functional component</p>
     </div>
   );
