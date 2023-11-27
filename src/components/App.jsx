@@ -1,16 +1,12 @@
-export const App = () => {
+import Panel from 'components/Panel';
+import PanelTwo from './PanelTwo';
+
+export default function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template!!!!!
+    <div>
+      <h1>EXERCITIUL 1</h1>
+      <Panel index={1} />
+      <PanelTwo index={2} />
     </div>
   );
-};
+}
