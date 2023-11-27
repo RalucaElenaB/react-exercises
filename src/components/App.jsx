@@ -86,6 +86,7 @@ export default function App() {
       <h1>Modulul 1 B</h1>
 
       <h1>Modulul 2 A</h1>
+      <h1>Modulul 3 A</h1>
       <h2>Exercitiul 1</h2>
       <Panel index={1} />
       <PanelTwo index={2} />
