@@ -84,7 +84,10 @@ export default function App() {
       />
 
       <h1>Stylization in React (1 B)</h1>
-      <h3>link spre repo-ul cu stilizarea</h3>
+      <h3>
+        link spre repo-ul cu stilizarea
+        https://ralucaelenab.github.io/react-exercises-stylization/
+      </h3>
 
       <h1>Events and States in React (2 A)</h1>
       <h2>Exercitiul 1</h2>
